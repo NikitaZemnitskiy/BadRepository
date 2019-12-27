@@ -14,10 +14,11 @@ public class Main {
         }
         File file = new File(args[0]);
         if(file.getName().contains(".hf")){
-            Decoding decoding = new Decoding();
+            Decoding decoding = new Decoding(file, new ReaderFile(), new WriterToFile());
+            decoding.decode();
         }
         else {
-            Encoding encoding = new Encoding(new ReaderFile(file), file, new WriterToFile());
+            Encoding encoding = new Encoding(new ReaderFile(), file, new WriterToFile());
             encoding.treeCreating();
         }
     }

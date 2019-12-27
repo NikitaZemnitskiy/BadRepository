@@ -21,21 +21,9 @@ public class Test {
         byte[] ba = cs.getBytes();
         byte b1 = 1;
         int a = 0;
-        a += (int)ba[1] *64;
-        System.out.println(a);
-        a += cs.charAt(2)*32;
-        System.out.println(a);
-        a += cs.charAt(3)*16;
-        System.out.println(a);
-        a += cs.charAt(4)*8;
-        System.out.println(a);
-        a += cs.charAt(5)*4;
-        System.out.println(a);
-        a += cs.charAt(6)*2;
-        System.out.println(a);
-        a += cs.charAt(7)*1;
 
-        System.out.println(a + "- наш инт");
+
+
         if (cs.charAt(0) == 1){
             b1 = (byte) (b1*-1);
         }

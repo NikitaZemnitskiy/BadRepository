@@ -2,31 +2,25 @@ package com.Huffman.Util;
 
 import com.Huffman.CodeTable;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.BitSet;
 
-public class WriterToFile implements Writer<File, String> {
+public class WriterToFile implements Writer<File, BitSet> {
 
 
     @Override
-    public void write(File file, String str, CodeTable codeTable) {
+    public void write(File file, BitSet bitSet) {
 
-        try(FileOutputStream fos = new FileOutputStream(file))
+        try(FileOutputStream fos = new FileOutputStream("Test.hf"))
         {
-            // перевод строки в байты
-        //    String text = codeTable.getTable()+str;
-            String text = str+'\n'+"=================================================";
-            byte[] buffer = text.getBytes();
 
-            fos.write(buffer);
+            byte[] buffer = bitSet.toByteArray();
+            System.out.println(buffer.length);
            fos.write(buffer, 0, buffer.length);
         }
         catch(IOException ex){
             System.out.println(ex.getMessage());
         }
-        String name = file.getName()+".hf";
     }
 
 }

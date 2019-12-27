@@ -1,29 +1,23 @@
 package com.Huffman.Util;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.stream.Collectors;
 
-public class ReaderFile implements Reader {
+public class ReaderFile implements Reader<File, String> {
     File file;
 
-    public ReaderFile(File file) {
-        this.file = file;
-    }
 
-    public String read() {
-        StringBuilder stringBuilder = new StringBuilder();
-        try(BufferedReader reader = new BufferedReader(new FileReader(file)))
-        {
-            int c;
-            while(reader.ready()){
-
-                stringBuilder.append(reader.readLine());
-                stringBuilder.append('\n');
-            }
+    @Override
+    public String read(File file) {
+        try {
+            return Files.readAllLines(file.toPath(), Charset.forName("utf8"))
+                    .stream()
+                    .collect(Collectors.joining());
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
         }
-        catch(IOException ex){
-            System.out.println(ex.getMessage());
-        }
-
-        return stringBuilder.toString();
     }
 }

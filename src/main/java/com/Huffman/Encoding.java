@@ -21,7 +21,7 @@ public class Encoding {
 
 
     public Encoding(Reader reader, File file, Writer writer) {
-        this.text = reader.read();
+        this.text = reader.read(file).toString();
         this.writer = writer;
         this.file = file;
     }
@@ -49,40 +49,51 @@ public class Encoding {
         Stream<Map.Entry<Character, Integer>> st = charMap.entrySet().stream();
         st.sorted(Comparator.comparing(e -> e.getValue())).forEach(e -> result.put(e.getKey(), e.getValue()));
 
-        table.createTable(result);
+        table = CodeTable.createTable((LinkedHashMap<Character, Integer>) result);
+        table.writeTable();
+
         BinaryTree binaryTree = new BinaryTree((LinkedHashMap) result);
         binaryTree.createBinaryTree();
         transformToBinaryCode(binaryTree);
 
     }
     public void transformToBinaryCode (BinaryTree binaryTree){
+       BitSet bitSet = new BitSet();
         StringBuilder stringBuilder = new StringBuilder();
         char[]charsArray = text.toCharArray();
+        int pos = 0;
         for(char c: charsArray){
             if (c == EOF){
                 break;
             }
             TreeNode currentNode = binaryTree.getFirstNode();
+
             while (true) {
                 if(currentNode.isLast()){
                     break;
                 }
                 if(currentNode.getLeft().getStr().contains(Character.toString(c))){
-                    System.out.println();
                     stringBuilder.append(0);
+                    System.out.println();
                     currentNode = currentNode.getLeft();
                 }
                 else if(currentNode.getRight().getStr().contains(Character.toString(c))) {
                     stringBuilder.append(1);
+                    bitSet.set(pos);
                     currentNode = currentNode.getRight();
                 }
                 else{
-                    System.out.println("Буквы нет в дереве, это конец");
+                    throw new IllegalStateException("Буквы нет в дереве, буква '" + c+ "' отсутствует");
                 }
+                pos++;
             }
         }
+        System.out.println(stringBuilder + " -CтрингБилдер");
+        System.out.println("bitSet|");
+        System.out.println(bitSet);
+        TestTestTest.bitTest = bitSet;
 
-      writer.write(file, stringBuilder.toString(), table);
+      writer.write(file, bitSet);
     }
 
 }

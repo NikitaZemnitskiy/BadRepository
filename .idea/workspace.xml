@@ -1,26 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f21cd80-1952-4307-8b18-77652364dce2" name="Default Changelist" comment="" />
+    <list default="true" id="2f21cd80-1952-4307-8b18-77652364dce2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EncodingText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Story.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Story.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/CodeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/CodeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Decoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Encoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/ReaderFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/ReaderFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/WriterToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Huffman/Util/WriterToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/BinaryTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/CodeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/CodeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Decoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Decoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/TestBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Util/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Util/Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Util/ReaderFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Util/ReaderFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Util/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Util/Writer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Huffman/Util/WriterToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Huffman/Util/WriterToFile.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HuffmanAlgorithm" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VTGvJDNLu167Z4oWFcXhzVCoZC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Huffman.BinaryTree" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,11 +81,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TestTestTest">
+    <configuration name="CodeTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Huffman.CodeTable" />
+      <module name="Huffman algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="Story.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Huffman.Main" />
       <module name="Huffman algorithm" />
-      <option name="PROGRAM_PARAMETERS" value="Story.txt" />
+      <option name="PROGRAM_PARAMETERS" value="Test.hf" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Huffman.BinaryTree.*" />
@@ -63,8 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Huffman.TestBinary" />
+    <configuration name="TestTestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Huffman.TestTestTest" />
+      <module name="Huffman algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="Story.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Huffman.WriteTest" />
       <module name="Huffman algorithm" />
       <option name="PROGRAM_PARAMETERS" value="Story.txt" />
       <extension name="coverage">
@@ -83,11 +158,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestTestTest" />
+      <item itemvalue="Application.WriteTest" />
+      <item itemvalue="Application.CodeTable" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestBinary" />
+        <item itemvalue="Application.TestTestTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WriteTest" />
+        <item itemvalue="Application.CodeTable" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -103,5 +187,18 @@
       <updated>1577269900317</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
